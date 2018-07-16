@@ -1,0 +1,56 @@
+.button-text {
+    padding: 0 6px !important;
+}
+
+.display-table {
+    margin: 0 !important;
+    margin-top: 8px !important;
+    width: 100% !important;
+}
+
+.display-textarea {
+    min-height: 200px !important;
+    resize: none !important;
+}
+
+.feedback-tooltip {
+    max-width: none !important;
+    white-space: nowrap !important;
+    width: auto !important;
+}
+
+.input-row {
+    height: 32px !important;
+}
+
+.left-label-button {
+    padding-right: 8px !important;
+}
+
+.left-cell {
+    padding-left: 0 !important;
+    padding-right: 8px !important;
+}
+
+.one-cell {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.number-text {
+    text-align: center !important;
+    width: 30px !important;
+}
+
+.right-label-button {
+    padding-left: 8px !important;
+}
+
+.right-cell {
+    padding-left: 8px !important;
+    padding-right: 0 !important;
+}
+
+.validation-tooltip .tooltip-inner {
+    background-color: rgba(220,53,69,1) !important;
+}

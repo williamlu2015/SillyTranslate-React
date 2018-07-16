@@ -1,0 +1,72 @@
+WebStorm -> New Project -> React App (create-react-app)
+- Location: "/Projects/SillyTranslate-React/client"
+- "client" subdirectory is due to npm naming restriction (name can no longer
+  contain capital letters)
+
+eslint --init
+- How would you like to configure ESLint? -> Answer questions about your style
+- Are you using ECMAScript 6 features? -> y
+- Are you using ES6 modules? -> y
+- Where will your code run? -> Browser, Node
+- Do you use CommonJS? -> y
+- Do you use JSX? -> y
+- Do you use React? -> y
+- What style of indentation do you use? -> Spaces
+- What quotes do you use for strings? -> Double
+- What line endings do you use? -> Unix
+- Do you require semicolons? -> Y
+- What format do you want your config file to be in? -> JSON
+(this automatically installs eslint and eslint-plugin-react under devDependencies)
+
+.eslintrc.json
+- "env": {
+      // ...
+      "jest": true
+  }
+- "extends": [
+      // ...
+      "plugin:react/recommended"
+  ]
+- "parserOptions": {
+      // ...
+      "ecmaVersion": 2017
+  }
+- "rules": {
+      // ...
+      "indent": "off"
+  }
+
+npm install --save prop-types
+npm install --save-dev @types/prop-types
+
+npm install --save react-router-dom
+npm install --save-dev @types/react-router-dom
+
+npm install --save axios
+
+npm install --save reactstrap
+npm install --save-dev @types/reactstrap
+
+npm install --save bootstrap
+npm install --save-dev @types/bootstrap
+
+npm install --save classnames
+npm install --save-dev @types/classnames
+
+npm install --save class-autobind
+
+npm install --save autosize
+npm install --save-dev @types/autosize
+
+npm install --save react-burger-menu
+npm install --save-dev @types/react-burger-menu
+
+npm install --save react-sortable-hoc
+npm install --save-dev @types/react-sortable-hoc
+
+npm install --save-dev @types/jest
+npm install --save-dev @types/react
+npm install --save-dev @types/react-dom
+
+package.json
+- "proxy": "http://localhost:3001/"

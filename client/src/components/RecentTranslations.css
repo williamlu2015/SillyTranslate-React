@@ -1,0 +1,18 @@
+.bm-menu {
+    background: white;
+    padding: 16px;
+}
+
+.bm-item {
+    display: inline-block;
+}
+
+.bm-overlay {
+    backdrop-filter: blur(10px);
+}
+
+.close-button {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+}

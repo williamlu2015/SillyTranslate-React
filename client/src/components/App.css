@@ -1,0 +1,38 @@
+body {
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.app-title {
+    font-size: 24pt !important;
+    text-align: center !important;
+}
+
+.card {
+    margin-bottom: 16px !important;
+}
+
+.equal-height-card-body {
+    padding: 0.75rem 1.25rem !important;
+}
+
+.header-card {
+    background-color: #333333 !important;
+    border-color: #333333 !important;
+}
+
+.narrow-element {
+    width: 75% !important;
+}
+
+.padded-element {
+    padding: 16px;
+}
+
+.section-title {
+    font-size: 16pt !important;
+    text-align: center !important;
+}

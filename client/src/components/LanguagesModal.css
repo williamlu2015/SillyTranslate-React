@@ -1,0 +1,20 @@
+.custom-languages-dropdown {
+    position: absolute !important;
+    right: 12px !important;
+    top: 12px !important;
+}
+
+.remove-button {
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+}
+
+#sortable-card {
+    margin: 4px !important;
+    z-index: 10000 !important;
+}
+
+#sortable-card-body {
+    padding: 0.5rem 1.25rem !important;
+}
